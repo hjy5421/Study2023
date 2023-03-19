@@ -1,7 +1,9 @@
+
 plugins {
     java
     id("org.springframework.boot") version "2.7.7"
     id("io.spring.dependency-management") version "1.0.15.RELEASE"
+    id("com.linecorp.build-recipe-plugin") version "1.0.1"
 }
 
 group = "com.study"
@@ -28,3 +30,4 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
